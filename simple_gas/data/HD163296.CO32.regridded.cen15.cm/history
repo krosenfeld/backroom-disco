@@ -1,0 +1,39 @@
+SORTORD = 'TB      '
+SPECSYS = 'LSRK    '
+AIPS WTSCAL = 1.0
+FITS: Miriad Fits: version 1.1 09-Feb-07
+FITS: Executed on: 2013-01-12T16:37:01.0
+FITS: Command line inputs follow:
+FITS:   in=HD163296.CO32.regridded.cen15.ms.fits
+FITS:   out=HD163296.CO32.regridded.cen15.vis
+FITS:   op=uvin
+INVERT: Miriad Invert: version 1.0 19-apr-09
+INVERT: Executed on: 2013-07-18T15:08:22.0
+INVERT: Command line inputs follow:
+INVERT:   vis=HD163296.CO32.regridded.cen15.vis
+INVERT:   map=HD163296.CO32.regridded.cen15.map
+INVERT:   beam=HD163296.CO32.regridded.cen15.bm
+INVERT:   imsize=1024
+INVERT:   cell=0.05
+INVERT:   robust=2
+CLEAN: Miriad Clean: version 4-Feb-08
+CLEAN: Executed on: 2013-07-18T15:08:31.0
+CLEAN: Command line inputs follow:
+CLEAN:   map=HD163296.CO32.regridded.cen15.map
+CLEAN:   beam=HD163296.CO32.regridded.cen15.bm
+CLEAN:   out=HD163296.CO32.regridded.cen15.clean
+CLEAN:   niters=100000
+CLEAN:   cutoff=0.04
+CLEAN:   region=arcsec,box(-7,-7,7,7)
+CLEAN: Bounding region is Blc=(373,373,1),Trc=(653,653,15)
+CLEAN: Steer Clip Level = 0.986
+CLEAN: Minpatch = 51
+CLEAN: Total Iterations = 37289
+RESTOR: Miriad Restor: version 1.3 07-Feb-2002
+RESTOR: Executed on: 2013-07-18T15:08:31.0
+RESTOR: Command line inputs follow:
+RESTOR:   model=HD163296.CO32.regridded.cen15.clean
+RESTOR:   beam=HD163296.CO32.regridded.cen15.bm
+RESTOR:   map=HD163296.CO32.regridded.cen15.map
+RESTOR:   out=HD163296.CO32.regridded.cen15.cm
+RESTOR: Beam =  6.321E-01 x  4.274E-01 arcsec, pa = -8.737E+01 degrees
